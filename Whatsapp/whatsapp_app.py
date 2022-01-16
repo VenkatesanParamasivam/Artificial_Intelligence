@@ -107,8 +107,8 @@ def app():
         set: Distinct list of words
         """
         multilingul_list = []
-        for file in os.listdir('./configs/stopwords'):
-            stopword = open('./configs/stopwords/' + file, "r",encoding='utf8')
+        for file in os.listdir('stopwords'):
+            stopword = open('stopwords/' + file, "r",encoding='utf8')
             for word in stopword:
                 word = re.sub('[\n]', '', word)
                 multilingul_list.append(word)
