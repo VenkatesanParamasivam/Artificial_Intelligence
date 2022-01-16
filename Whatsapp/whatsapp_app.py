@@ -368,7 +368,7 @@ def app():
     Pandas Dataframe items
     """
     # Parsing YAML file
-    config = .Whatsapp/configs/app_configuration.yml'
+    config = ./Whatsapp/configs/app_configuration.yml'
     config = yaml.safe_load(open(config))
     # configure logging
     log_config = config['logging']
