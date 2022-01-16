@@ -42,7 +42,10 @@ Quick learner, Flexible, Ability to understand concepts quickly, Eager to learn 
              The Artificial Intelligence tutorial provides an introduction to AI which will help you to understand the concepts behind Artificial Intelligence. In this tutorial, we have also discussed various popular topics such as History of AI, applications of AI, deep learning, machine learning, natural language processing, Reinforcement learning, Q-learning, Intelligent agents, Various search algorithms, etc.
 
 Our AI tutorial is prepared from an elementary level so you can easily understand the complete tutorial from basic concepts to the high-level concepts.""")
-    image = Image.open('https://github.com/VenkatesanParamasivam/Artificial_Intelligence/blob/main/Images/AI.JPG')
+    from urllib.request import urlopen
+    url='https://github.com/VenkatesanParamasivam/Artificial_Intelligence/blob/main/Images/AI.JPG'
+    #img = Image.open(urlopen(url))
+    image = Image.open(urlopen(url))
 
     st.image(image, caption='What is AI')
     
