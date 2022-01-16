@@ -10,6 +10,7 @@ import streamlit as st
 
 
 def app():
+    fileDir = os.path.dirname(os.path.abspath(__file__))
     absFilePath = os.path.dirname(fileDir)                # Absolute Path of the module
     st.write(absFilePath)
     pweb = """<a href='https://www.youtube.com/channel/UCespXFy72CY6ok9l4V6WJcw' target="_blank">https://www.youtube.com/channel/UCespXFy72CY6ok9l4V6WJcw</a>"""
