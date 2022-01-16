@@ -5,8 +5,13 @@ Created on Fri Jan 14 17:01:08 2022
 @author: Venkatesan
 """
 from PIL import Image
+import os
+
+
 
 def app():
+    absFilePath = os.path.abspath(__file__)                # Absolute Path of the module
+    st.write(absFilePath)
     import streamlit as st
     pweb = """<a href='https://www.youtube.com/channel/UCespXFy72CY6ok9l4V6WJcw' target="_blank">https://www.youtube.com/channel/UCespXFy72CY6ok9l4V6WJcw</a>"""
     sm_li = """<a href='https://www.linkedin.com/in/andymcdonaldgeo/' target="_blank"><img src='https://cdn.exclaimer.com/Handbook%20Images/linkedin-icon_32x32.png'></a>"""
