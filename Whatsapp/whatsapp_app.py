@@ -368,7 +368,7 @@ def app():
     Pandas Dataframe items
     """
     # Parsing YAML file
-    #config = './configs/app_configuration.yml'
+    #config = 'app_configuration.yml'
     config = yaml.safe_load(open('./configs/app_configuration.yml'))
     # configure logging
     log_config = config['logging']
@@ -391,7 +391,7 @@ def app():
     
     # Static File processin For DEMO purpose
     if c2.button("Try Demo"):
-        with open('./configs/demo_chat.txt', 'r',encoding="utf8") as read_file:
+        with open('demo_chat.txt', 'r',encoding="utf8") as read_file:
             data = read_file.read()
         file_process(data, config)
     
