@@ -48,25 +48,25 @@ This machine learning tutorial gives you an introduction to machine learning alo
 
 What is Machine Learning
 In the real world, we are surrounded by humans who can learn everything from their experiences with their learning capability, and we have computers or machines which work on our instructions. But can a machine also learn from experiences or past data like a human does? So here comes the role of Machine Learning.''')
-    image = Image.open(r'D:\Website\photos\ML.jpg')
+    image = Image.open(r'Images/ML.jpg')
     st.image(image, caption='Machine Learning')
     st.write('''**Natural Language Processing:** NLP stands for Natural Language Processing, which is a part of Computer Science, Human language, and Artificial Intelligence. It is the technology that is used by machines to understand, analyse, manipulate, and interpret human's languages. It helps developers to organize knowledge for performing tasks such as translation, automatic summarization, Named Entity Recognition (NER), speech recognition, relationship extraction, and topic segmentation.''')
-    image = Image.open(r'D:\Website\photos\NLP.jpg')
+    image = Image.open(r'Images/NLP.jpg')
     st.image(image, caption='Natural Language Processing')
     st.write('''**Deep Learning:** Deep learning is based on the branch of machine learning, which is a subset of artificial intelligence. Since neural networks imitate the human brain and so deep learning will do. In deep learning, nothing is programmed explicitly. Basically, it is a machine learning class that makes use of numerous nonlinear processing units so as to perform feature extraction as well as transformation. The output from each preceding layer is taken as input by each one of the successive layers.''')
     
     st.write('''**Computer Vision:** Computer vision is a scientific field which deals with how computers can be made as high level devices which understand digital images and videos. In terms of engineering, it is an automate task that the human visual system can do. Computer vision has methods for acquiring, processing, analyzing and understanding the digital image. The most important task is to extract high dimensional data from the real world which can produce numerical or symbolic information.
 
 As a scientific discipline, computer vision is related to the theory of artificial system which can extract information from images. The image data is used in the form of video sequences which can be seen by a human.''')
-    image = Image.open(r'D:\Website\photos\CV.jpg')
+    image = Image.open(r'Images/CV.jpg')
     st.image(image, caption='Computer Vision')    
     st.write('''**Speech to text / Text to speech:** Have you ever thought about how Google Assistant or Amazon Alexa recognizes whatever you say? You must be thinking about some complex smart technologies working behind bars. Apart from a massive hit in the market of tremendous technological growth of recognition systems, the majority of the cellular device has the feature of speech recognition all through some inbuilt applications or third party applications. Not necessarily; most such speech recognition systems are built and deployed with the help of python packages and libraries. To a certain level, Python has proven that it is an essential aspect of the foreseeable future. The reason is pretty obvious. To incorporate speech recognition in Python, you need a certain level of interactivity and accessibility to match technologies.''')
-    image = Image.open(r'D:\Website\photos\speech_text.jpg')
+    image = Image.open(r'Images/speech_text.jpg')
     st.image(image, caption='Speech to Text')
     st.write('''**Information Retrieval:** Information Retrieval (IR) can be defined as a software program that deals with the organization, storage, retrieval, and evaluation of information from document repositories, particularly textual information. Information Retrieval is the activity of obtaining material that can usually be documented on an unstructured nature i.e. usually text which satisfies an information need from within large collections which is stored on computers. For example, Information Retrieval can be when a user enters a query into the system. 
 
 Not only librarians, professional searchers, etc engage themselves in the activity of information retrieval but nowadays hundreds of millions of people engage in IR every day when they use web search engines. Information Retrieval is believed to be the dominant form of Information access. The IR system assists the users in finding the information they require but it does not explicitly return the answers to the question. It notifies regarding the existence and location of documents that might consist of the required information. Information retrieval also extends support to users in browsing or filtering document collection or processing a set of retrieved documents. The system searches over billions of documents stored on millions of computers. A spam filter, manual or automatic means are provided by Email program for classifying the mails so that it can be placed directly into particular folders. ''')
-    image = Image.open(r'D:\Website\photos\IR.jpg')
+    image = Image.open(r'Images/IR.jpg')
     st.image(image, caption='Information Retrieval')
 
     # st.write('## Get in Touch')
