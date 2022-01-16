@@ -369,7 +369,7 @@ def app():
     """
     # Parsing YAML file
     #config = 'app_configuration.yml'
-    config = yaml.safe_load(open('./configs/app_configuration.yml'))
+    config = yaml.safe_load(open('app_configuration.yml'))
     # configure logging
     log_config = config['logging']
     logging.config.dictConfig(log_config)
