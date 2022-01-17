@@ -7,7 +7,7 @@ import time
 import warnings
 import logging
 import logging.config
-import pandas
+import pandas as pd
 import yaml
 from typing import Dict, Any
 import streamlit as st
@@ -279,6 +279,7 @@ def app():
         whatsapp = WhatsAppProcess(source_config)
         message = whatsapp.apply_regex(data)
         raw_df = process_data(message)
+        st.write(type(raw_df))
         raw_df.to_csv("whatsapp_csv.csv")
         data_frame = whatsapp.get_dataframe(raw_df)
         stats = statistics(raw_df, data_frame)
