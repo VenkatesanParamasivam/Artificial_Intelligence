@@ -65,6 +65,7 @@ parso==0.7.1
 pathy==0.6.1
 pickleshare==0.7.5
 Pillow
+PIL
 plotly==5.5.0
 preshed==3.0.6
 prometheus-client==0.12.0
