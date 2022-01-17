@@ -279,19 +279,7 @@ def app():
         whatsapp = WhatsAppProcess(source_config)
         message = whatsapp.apply_regex(data)
         raw_df = process_data(message)
-        st.write(type(raw_df))
-        raw_df.to_csv("whatsapp_csv.csv")
-        
-        df = pd.DataFrame()
-  
-        print(df)
 
-        # append columns to an empty DataFrame
-        df['Name'] = ['Ankit', 'Ankita', 'Yashvardhan']
-        df['Articles'] = [97, 600, 200]
-        df['Improved'] = [2200, 75, 100]
-        df.to_csv("tst.csv")
-        st.dataframe(df)
     
         data_frame = whatsapp.get_dataframe(raw_df)
         stats = statistics(raw_df, data_frame)
